@@ -263,9 +263,11 @@ p {
   padding-bottom: 60px;
 }
 
-.container .address {
+.container .address p {
   margin-top: 20px;
+  margin-bottom: 9px;
 }
+
 /*цвет основного текста #212121*/
 
 /*вторичный цвет #757575 */
