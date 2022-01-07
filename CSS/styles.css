@@ -19,6 +19,15 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  /* background-color: aqua;
+  outline: 2px solid red; */
+}
+
 .logo {
   color: var(--title-text-color);
   font-family: Raleway;
@@ -66,21 +75,45 @@ body {
 
 ul {
   list-style: none;
+  padding: 0;
+  margin: o;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /*Hero*/
 
+.hero {
+  background-color: #2f303a;
+  text-align: center;
+}
+
 .hero-title {
   color: var(--primary-white-color);
-  background-color: #2f303a;
 
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
+
+  margin-top: 0;
+  margin-bottom: 30px;
 }
 
 /*Section*/
+
+.section .container {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 .section-title {
   color: var(--title-text-color);
@@ -88,6 +121,12 @@ ul {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+
+  margin-bottom: 50px;
+}
+
+.section .no-padding {
+  padding-top: 0;
 }
 
 /*Features*/
@@ -97,6 +136,14 @@ ul {
 
   font-size: 14px;
   line-height: 1.14;
+
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.feature-list p {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /*Team*/
@@ -120,6 +167,9 @@ ul {
   color: var(--primary-white-color);
   line-height: 1.71;
   font-style: normal;
+
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .address .link-address {
   color: var(--footer-address-color);
@@ -138,6 +188,8 @@ ul {
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
+
+  border-radius: 4px;
 }
 
 .button.primary {
@@ -147,6 +199,10 @@ ul {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
+
+  padding: 11px 32px;
+  min-width: 200px;
+  text-align: center;
 }
 
 .button.secondary {
@@ -155,6 +211,9 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+
+  padding: 6px 22px;
+  min-width: 73px;
 }
 
 .button.secondary:hover,
