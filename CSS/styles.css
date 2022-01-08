@@ -78,7 +78,7 @@ body {
 ul {
   list-style: none;
   padding: 0;
-  margin: o;
+  margin: 0;
 }
 
 h1,
@@ -273,8 +273,12 @@ p {
   padding-bottom: 60px;
 }
 
-.container .address p {
+.footer-address {
   margin-top: 20px;
+  margin-bottom: 9px;
+}
+
+.footer-mail {
   margin-bottom: 9px;
 }
 
