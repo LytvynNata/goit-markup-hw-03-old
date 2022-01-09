@@ -27,7 +27,7 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   /* background-color: aqua; */
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
 }
 
 .header .container {
@@ -178,6 +178,16 @@ p {
 }
 
 /*Features*/
+.feature-list {
+  display: flex;
+}
+
+.feature-list .item {
+  width: 270px;
+}
+.feature-list .item + .item {
+  margin-left: 30px;
+}
 
 .feature-list .title {
   color: var(--title-text-color);
