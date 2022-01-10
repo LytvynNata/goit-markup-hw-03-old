@@ -316,6 +316,7 @@ p {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  flex-basis: inherit;
   /* margin-right: auto */
   /* background-color: violet; */
   /* margin: -15px; */
