@@ -34,6 +34,7 @@ body {
   display: flex;
   padding-top: 24px;
   padding-bottom: 25px;
+  border-bottom: 1px solid #ececec;
 }
 /* .main-nav {
   display: flex;
@@ -317,7 +318,7 @@ p {
 
   letter-spacing: 0.06em;
 
-  margin-top: 20px;
+  padding-top: 20px;
   margin-bottom: 4px;
 }
 
@@ -357,6 +358,15 @@ p {
   margin-bottom: 30px;
   /* margin: 15px; */
   /* outline: 1px solid red; */
+  /* border-width: 0px 1px 1px 1px;
+  border-color: #eeeeee;
+  border-style: solid; */
+}
+
+.portfolio-list .bottom {
+  border-width: 0px 1px 1px 1px;
+  border-color: #eeeeee;
+  border-style: solid;
 }
 
 .element:nth-child(3n) {
