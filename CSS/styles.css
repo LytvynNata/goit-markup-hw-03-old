@@ -183,7 +183,7 @@ p {
 
 .job-example .item {
   width: 370px;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 
 .job-example .item + .item {
@@ -322,8 +322,16 @@ p {
 }
 
 .filters-list {
+  display: flex;
+  justify-content: center;
+  /* padding-left: 280px;
+  padding-right: 279px; */
   margin-top: 0;
   margin-bottom: 50px;
+}
+
+.filters-list .item + .item {
+  margin-left: 8px;
 }
 
 .project {
@@ -348,7 +356,7 @@ p {
   margin-right: 30px;
   margin-bottom: 30px;
   /* margin: 15px; */
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 
 .element:nth-child(3n) {
