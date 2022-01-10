@@ -180,6 +180,7 @@ p {
 /*Features*/
 .feature-list {
   display: flex;
+  justify-content: space-between;
 }
 
 .feature-list .item {
@@ -311,6 +312,32 @@ p {
   line-height: 1.87;
 }
 
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* margin-right: auto */
+  /* background-color: violet; */
+  /* margin: -15px; */
+}
+
+.element {
+  width: 370px;
+  /* width: calc((100%-60px) / 3); */
+  /* background-color: springgreen; */
+  margin-right: 30px;
+  margin-bottom: 30px;
+  /* margin: 15px; */
+}
+
+.element:nth-child(3n) {
+  margin-right: 0px;
+}
+
+.element:nth-last-child(-n + 3) {
+  margin-bottom: 0;
+}
+
 .footer {
   background-color: #2f303a;
   /* color: var(--primary-white-color); */
@@ -345,6 +372,7 @@ p {
 img {
   display: block;
 }
+
 /*цвет основного текста #212121*/
 
 /*вторичный цвет #757575 */
